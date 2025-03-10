@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Defines the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in element's width/height */
+    line-height: 1.6; /* Improves readability by increasing line height */
+}
+
+/* Container */
+.container {
+    padding: 20px; /* Adds padding around each section */
+    border: 1px solid #ddd; /* Light border to visually separate sections */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    margin: 20px; /* Space between containers */
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text color */
+    text-align: center; /* Centers text horizontally */
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none; /* Removes bullet points from list */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Displays list items horizontally */
+    margin: 0 15px; /* Adds space between links */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Removes underline */
+}
+
+/* Main Content */
+main {
+    padding: 20px; /* Adds space around the main content */
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px; /* Space between sections */
+}
+
+/* Form Styling */
+form {
+    display: flex; /* Aligns form elements vertically */
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+input, textarea {
+    margin-bottom: 15px; /* Space between form elements */
+    padding: 10px; /* Adds padding for better usability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #4CAF50; /* Button background */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding inside button */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Centers the footer content */
+    background-color: #222; /* Dark background */
+    color: white; /* White text */
+}
